@@ -1,0 +1,6 @@
+Code Explanation:
+- The MobiusStrip class encapsulates all functionality needed to model the strip.
+- The parametric equations define the shape using u and v parameters.
+- Mesh generation uses numpy.meshgrid() to discretize the surface.
+- Surface area is approximated via numerical integration of the normal magnitude.
+- The edge length is computed analytically.
